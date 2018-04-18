@@ -26,5 +26,10 @@ namespace Nop.Plugin.Widgets.PromoSlider.Infraestructure
 		    return ((IObjectContextAdapter)this).ObjectContext.CreateDatabaseScript();
 	    }
 
+	    public void Install()
+	    {
+		    Database.SetInitializer<PromoSliderObjectContext>(null);
+		    Database.ExecuteSqlCommand(CreateDatabaseInstallationScript());
+	    }
     }
 }
