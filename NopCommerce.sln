@@ -63,9 +63,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Payments.Worldpa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Payments.Square", "Plugins\Nop.Plugin.Payments.Square\Nop.Plugin.Payments.Square.csproj", "{FBAAE193-A988-4863-9559-C36A022D0A91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Widgets.Test2", "Plugins\Nop.Plugin.Widgets.Test2\Nop.Plugin.Widgets.Test2.csproj", "{5B27F6DC-E38D-4439-814A-C443622A9ACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Widgets.Test2", "Plugins\Nop.Plugin.Widgets.Test2\Nop.Plugin.Widgets.Test2.csproj", "{5B27F6DC-E38D-4439-814A-C443622A9ACA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Widgets.PromoSlider", "Plugins\Nop.Plugin.Widgets.PromoSlider\Nop.Plugin.Widgets.PromoSlider.csproj", "{4AFFE8B2-8FB2-4C96-91D3-8E8D0C824443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Widgets.PromoSlider", "Plugins\Nop.Plugin.Widgets.PromoSlider\Nop.Plugin.Widgets.PromoSlider.csproj", "{4AFFE8B2-8FB2-4C96-91D3-8E8D0C824443}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75FD4163-333C-4DD5-854D-2EF294E45D94} = {75FD4163-333C-4DD5-854D-2EF294E45D94}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

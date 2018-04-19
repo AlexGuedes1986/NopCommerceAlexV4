@@ -25,10 +25,21 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Libraries\Nop.Core\Nop.Core.csproj" />
+    <ProjectReference Include="..\..\Libraries\Nop.Data\Nop.Data.csproj" />
+    <ProjectReference Include="..\..\Libraries\Nop.Services\Nop.Services.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\Libraries\Nop.Data\bin\Debug\net461\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Extensions.DependencyInjection">
+      <HintPath>..\..\Libraries\Nop.Data\bin\Debug\net461\Autofac.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\..\Libraries\Nop.Data\bin\Debug\net461\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Nop.Web.Framework">
+      <HintPath>..\..\Presentation\Nop.Web.Framework\bin\Debug\net461\Nop.Web.Framework.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
