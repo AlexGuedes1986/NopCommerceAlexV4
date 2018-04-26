@@ -1,11 +1,15 @@
-﻿{
+{
   "Group": "Widgets",
   "FriendlyName": "Promo Slider",
   "SystemName": "Widgets.PromoSlider",
   "Version": "1.00",
-  "SupportedVersions": [ "4.00" ],
+  "SupportedVersions": [
+    "4.00"
+  ],
   "Author": "Alex",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Widgets.PromoSlider.dll",
-  "Description": "This plugin is a Promo Slider"
+  "Description": "This plugin is a Promo Slider",
+  "LimitedToStores": [],
+  "LimitedToCustomerRoles": []
 }
